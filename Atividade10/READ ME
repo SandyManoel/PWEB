@@ -1,0 +1,4 @@
+Criar QUATRO funções, usar arquivo externo para o arquivo js.
+1) Para receber três números e retornar o maiordeles.
+2) Para receber três números e retorná-los emordem crescente.
+3) Para receber uma string e retornar se ela épalíndromo ou não. (passar para maiúsculas)4) Para receber 3 valores, informar se formam umtriângulo e qual é o tipo do triângulo
