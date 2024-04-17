@@ -7,3 +7,4 @@ a idade da pessoa mais nova;
 a quantidade de pessoas que responderam péssimo;
 a porcentagem de pessoas que responderam ótimo e bom;
 o número de mulheres e homens que responderam ao questionário 
+Obs: loop como 2 para conseguir testar tudo, mudar para 45.
