@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Objetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Clique no botão para realizar a Criação de Objetos</p>
+    <button id="botaoExecutar">Executar Script</button>
+    <script>
+        document.getElementById("botaoExecutar").addEventListener("click", function() {
+            // Cria um elemento de script
+            var script = document.createElement("script");
+            // Define o atributo src para o arquivo script.js
+            script.src = "script.js";
+            // Adiciona o elemento de script ao final do corpo do documento
+            document.body.appendChild(script);
+            // Remove o evento de clique do botão após clicar para evitar que o script seja recarregado
+            document.getElementById("botaoExecutar").removeEventListener("click", this);
+        });
+    </script>
+
+</body>
+</html>
