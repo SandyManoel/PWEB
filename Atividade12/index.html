@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Construtora e Classes</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="botaoRetangulo">Exercicio 1 - Retângulo</button>
+    <button id="botaoConta">Exercicio 2 - Conta Bancária </button>
+    <script>
+        function carregarScript1() {
+            var script = document.createElement("script");
+            script.src = "scriptRetangulo.js";
+            document.body.appendChild(script);
+            document.getElementById("botaoRetangulo").removeEventListener("click", carregarScript1);
+        }
+
+        function carregarScript2() {
+            var script = document.createElement("script");
+            script.src = "scriptConta.js";
+            document.body.appendChild(script);
+            document.getElementById("botaoConta").removeEventListener("click", carregarScript2);
+        }
+
+        // Adicionando um evento de clique aos botões
+        document.getElementById("botaoRetangulo").addEventListener("click", carregarScript1);
+        document.getElementById("botaoConta").addEventListener("click", carregarScript2);
+    </script>
+</body>
+</html>
