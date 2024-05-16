@@ -1,0 +1,6 @@
+body{
+    background-image: url('fatec.jpg'); /* Substitua pelo nome correto da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
