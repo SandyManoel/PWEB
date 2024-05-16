@@ -1,0 +1,10 @@
+Criar uma página utilizando JavaScript que execute as seguintes 
+funções: 
+A página principal deve conter uma caixa de seleção com nomes
+de cursos (os cursos da Fatec Sorocaba).
+Quando o usuário escolher um curso, deverá aparecer uma caixa
+confirmando se a janela contendo o curso deve realmente ser
+aberta.
+Caso o usuário confirme (clicando em Ok), o curso escolhido
+deverá ser carregado em uma nova janela (coloque algumas
+informações sobre ele) com 600 × 300 pixels.
